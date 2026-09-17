@@ -255,7 +255,9 @@
     "pinned_footprint_libs": [
       "local"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "local"
+    ]
   },
   "meta": {
     "filename": "Tempic-HW.kicad_pro",
@@ -431,7 +433,7 @@
         "uuid": "2ca0db5f-de50-4592-8f98-3606d9e525b6"
       }
     ],
-    "used_designators": "J1,U1-3",
+    "used_designators": "P1,BT1,#PWR1-35,D1,C1-12,SC1,R1-15,L1-2,J1,U1-5",
     "variants": []
   },
   "sheets": [

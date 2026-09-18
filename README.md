@@ -1,6 +1,8 @@
 # Tempic
 Small 50mm x 50mm solar powered ESP32c6 based indoor/outdoor WiFi/Zigbee sensor node.
 
+![](media/3d.png)
+
 # Features
 - Onboard ESP32 C6 mini with
     - WiFi 6 (2.4 GHz)
@@ -39,3 +41,8 @@ Goal is easy Home Assistant integration with unlimited battery life and cable-le
     - [ ] (far) Add BLE peer to peer communication for bigger meshes
 - [ ] Home assistant
     - [ ] Figure out what is the best way to make it work (do not know if any custom plugins are necessary)
+     
+# Schematics
+View [schematics](media/Schematics.pdf) in PDF format.
+
+Developed in KiCad.

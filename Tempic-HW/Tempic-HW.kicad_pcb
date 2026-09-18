@@ -5729,29 +5729,6 @@
 		(layer "F.Cu")
 		(uuid "83c15500-97df-4a60-a7c9-aa268ac481e6")
 		(at 140 139.01)
-		(property "Reference" "P1"
-			(at 1.73 -9.145 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "88329016-f0e6-40cc-a1e9-d07d98657663")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "217175-0001"
-			(at 0 -10.5575 0)
-			(layer "F.Fab")
-			(uuid "3ddaef18-20ef-4205-83c3-ba6e31200e51")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -5774,16 +5751,33 @@
 				)
 			)
 		)
+		(property "Value" "217175-0001"
+			(at 0 -10.5575 0)
+			(layer "F.Fab")
+			(uuid "3ddaef18-20ef-4205-83c3-ba6e31200e51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Reference" "P1"
+			(at 1.73 -9.145 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "88329016-f0e6-40cc-a1e9-d07d98657663")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "USB*C*Plug*")
 		(path "/f6ca7547-9d9d-4af6-bd45-982513abd373")
 		(sheetname "/")
 		(sheetfile "Tempic-HW.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "SH" "A8" "B8" "A1" "A12" "A4" "A9" "A5" "B5" "A7" "B7" "A6" "B6")
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_poly
@@ -5932,7 +5926,7 @@
 		)
 		(fp_line
 			(start -3.6 -8.35)
-			(end -2.8 -8.350001)
+			(end -2.8 -8.35)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -5951,7 +5945,7 @@
 			(uuid "745004d1-83ea-4552-ac08-8f47d98dc755")
 		)
 		(fp_line
-			(start -2.8 -8.350001)
+			(start -2.8 -8.35)
 			(end -3.2 -9.05)
 			(stroke
 				(width 0.15)
@@ -5990,20 +5984,10 @@
 			(layer "Edge.Cuts")
 			(uuid "d0954674-fab4-4394-a68f-954f3f7a329a")
 		)
-		(fp_line
-			(start 4.62 0)
-			(end -4.62 0)
-			(stroke
-				(width 0.01)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "bbc4ec2a-829c-4930-902c-38a5bd32c497")
-		)
 		(fp_arc
 			(start -4.62 -6.700001)
 			(mid -4.397644 -6.989779)
-			(end -4.060189 -6.85)
+			(end -4.06019 -6.85)
 			(stroke
 				(width 0.01)
 				(type solid)
@@ -6023,8 +6007,8 @@
 			(uuid "b70dca22-b9f1-47bd-bdf6-e19bb6fa7f19")
 		)
 		(fp_arc
-			(start 4.060189 -6.85)
-			(mid 3.950381 -6.740192)
+			(start 4.06019 -6.85)
+			(mid 3.95038 -6.740198)
 			(end 3.80038 -6.7)
 			(stroke
 				(width 0.01)
@@ -6035,7 +6019,7 @@
 		)
 		(fp_arc
 			(start 4.060191 -6.85)
-			(mid 4.397645 -6.989778)
+			(mid 4.397646 -6.989779)
 			(end 4.62 -6.7)
 			(stroke
 				(width 0.01)
@@ -6045,8 +6029,8 @@
 			(uuid "ee3a7476-862f-4e70-b71c-d2ef377dc72d")
 		)
 		(fp_line
-			(start -6.420001 0.3)
-			(end 6.420001 0.3)
+			(start -6.42 -8.1)
+			(end -6.42 0.3)
 			(stroke
 				(width 0.01)
 				(type solid)
@@ -6055,8 +6039,8 @@
 			(uuid "48c2cc0e-178d-4db1-aec8-bbdf6f9c6bca")
 		)
 		(fp_line
-			(start -6.42 -8.099999)
-			(end -6.420001 0.3)
+			(start -6.42 0.3)
+			(end 6.42 0.3)
 			(stroke
 				(width 0.01)
 				(type solid)
@@ -6065,8 +6049,8 @@
 			(uuid "75577ae9-256e-4df7-85d8-01ee6e3d8835")
 		)
 		(fp_line
-			(start 6.42 -8.099999)
-			(end -6.42 -8.099999)
+			(start 6.42 -8.1)
+			(end -6.42 -8.1)
 			(stroke
 				(width 0.01)
 				(type solid)
@@ -6075,8 +6059,8 @@
 			(uuid "d56dd0d6-7d81-4cb2-b8c5-ed10a85c2533")
 		)
 		(fp_line
-			(start 6.420001 0.3)
-			(end 6.42 -8.099999)
+			(start 6.42 0.3)
+			(end 6.42 -8.1)
 			(stroke
 				(width 0.01)
 				(type solid)
@@ -6125,16 +6109,6 @@
 			(uuid "59a8522f-acd3-41df-a5d4-23ceaac6aef2")
 		)
 		(fp_line
-			(start -4.47 0)
-			(end 4.47 0)
-			(stroke
-				(width 0.13)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "8dfd2737-45b1-4ebb-bb8c-071507ee053c")
-		)
-		(fp_line
 			(start -3.80038 -6.7)
 			(end 3.80038 -6.7)
 			(stroke
@@ -6146,7 +6120,7 @@
 		)
 		(fp_line
 			(start -3.6 -8.35)
-			(end -2.8 -8.350001)
+			(end -2.8 -8.35)
 			(stroke
 				(width 0.13)
 				(type solid)
@@ -6165,7 +6139,7 @@
 			(uuid "89ba3059-cdff-4196-b803-c6f0c43450b0")
 		)
 		(fp_line
-			(start -2.8 -8.350001)
+			(start -2.8 -8.35)
 			(end -3.2 -9.05)
 			(stroke
 				(width 0.13)
@@ -6207,7 +6181,7 @@
 		(fp_arc
 			(start -4.62 -6.700001)
 			(mid -4.397644 -6.989779)
-			(end -4.060189 -6.85)
+			(end -4.06019 -6.85)
 			(stroke
 				(width 0.13)
 				(type solid)
@@ -6227,8 +6201,8 @@
 			(uuid "0fa7d9ca-7ba9-4496-8e02-5db3e9f407b3")
 		)
 		(fp_arc
-			(start 4.060189 -6.85)
-			(mid 3.950381 -6.740192)
+			(start 4.06019 -6.85)
+			(mid 3.95038 -6.740198)
 			(end 3.80038 -6.7)
 			(stroke
 				(width 0.13)
@@ -6239,7 +6213,7 @@
 		)
 		(fp_arc
 			(start 4.060191 -6.85)
-			(mid 4.397645 -6.989778)
+			(mid 4.397646 -6.989779)
 			(end 4.62 -6.7)
 			(stroke
 				(width 0.13)
@@ -6251,7 +6225,7 @@
 		(fp_text user "BOARD CUT OUT"
 			(at 0 -3.35 0)
 			(layer "F.Fab")
-			(uuid "ae31b0f2-fed4-472a-82fd-b03fa051973d")
+			(uuid "f2ee2a13-7d00-4007-b47e-bddb9df4b64d")
 			(effects
 				(font
 					(size 0.102362 0.102362)
@@ -6368,7 +6342,7 @@
 			(uuid "08e51190-b94c-4df0-ad28-703a97aefb82")
 		)
 		(pad "SH" thru_hole oval
-			(at -5.62 -6.099999)
+			(at -5.62 -6.1)
 			(size 1 1.8)
 			(drill oval 0.6 1.4)
 			(layers "*.Cu" "*.Mask")
@@ -6377,7 +6351,7 @@
 			(pinfunction "SHIELD_SH")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
-			(uuid "82d3cd96-df30-40d6-a6b2-4c66e4b59ecf")
+			(uuid "52187335-6fb8-402c-a39c-b935bc9102bb")
 		)
 		(pad "SH" thru_hole oval
 			(at -5.62 -2.1)
@@ -6392,7 +6366,7 @@
 			(uuid "c1d9cc34-eb1a-4232-9367-3d08207a16f8")
 		)
 		(pad "SH" thru_hole oval
-			(at 5.62 -6.099999)
+			(at 5.62 -6.1)
 			(size 1 1.8)
 			(drill oval 0.6 1.4)
 			(layers "*.Cu" "*.Mask")
@@ -6401,7 +6375,7 @@
 			(pinfunction "SHIELD_SH")
 			(pintype "passive")
 			(solder_mask_margin 0.0762)
-			(uuid "52187335-6fb8-402c-a39c-b935bc9102bb")
+			(uuid "82d3cd96-df30-40d6-a6b2-4c66e4b59ecf")
 		)
 		(pad "SH" thru_hole oval
 			(at 5.62 -2.1)
@@ -13304,16 +13278,55 @@
 		(layer "F.SilkS")
 		(uuid "8fa4eb17-1a92-4f8b-b453-e5a3e7996936")
 	)
-	(gr_rect
+	(gr_line
 		(start 115 93.7)
+		(end 115 139)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0314efa5-40f7-4ed0-b0c3-d5bed86e30bc")
+	)
+	(gr_line
+		(start 115 93.7)
+		(end 165 93.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "40c5c09c-93db-4c41-8eda-88a018a2bec4")
+	)
+	(gr_line
+		(start 115 139)
+		(end 135.38 139.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4ac88e27-b588-4843-bd93-cf2da3ced85d")
+	)
+	(gr_line
+		(start 165 93.7)
 		(end 165 139)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "e8f24567-787d-4f85-a4a9-cbe119182c06")
+		(uuid "20cb22f6-5e4d-4b1b-b7b2-191b522127d3")
+	)
+	(gr_line
+		(start 165 139)
+		(end 144.62 139.01)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "194c5236-517d-4a29-913b-be594ef867b3")
 	)
 	(gr_text "SOLAR"
 		(at 116.7 119.8 0)

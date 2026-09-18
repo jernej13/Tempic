@@ -39,6 +39,9 @@ Goal is easy Home Assistant integration with unlimited battery life and cable-le
     - [ ] Setup connection to Home Assistant
     - [ ] Add Zigbee
     - [ ] (far) Add BLE peer to peer communication for bigger meshes
+- [ ] Case
+    - [ ] 3d design case
+    - [ ] 3d print case  
 - [ ] Home assistant
     - [ ] Figure out what is the best way to make it work (do not know if any custom plugins are necessary)
      

@@ -46,6 +46,6 @@ Goal is easy Home Assistant integration with unlimited battery life and cable-le
     - [ ] Figure out what is the best way to make it work (do not know if any custom plugins are necessary)
      
 # Schematics
-View [schematics](media/Schematics.pdf) in PDF format.
+View [schematics](media/Schematics_1.0.pdf) in PDF format.
 
 Developed in KiCad.

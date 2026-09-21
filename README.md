@@ -29,7 +29,7 @@ Goal is easy Home Assistant integration with unlimited battery life and cable-le
     - [x] Find suitable ICs
     - [x] Schematics 1.0
     - [x] Draw PCB 1.0
-    - [ ] Order prototype
+    - [x] Order prototype
     - [ ] Assemble the PCB
     - [ ] Test PCB
 - [ ] Firmware

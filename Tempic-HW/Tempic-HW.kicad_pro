@@ -505,10 +505,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "local"
+      "local",
+      "partdb-add"
     ],
     "pinned_symbol_libs": [
-      "local"
+      "local",
+      "partdb"
     ]
   },
   "meta": {

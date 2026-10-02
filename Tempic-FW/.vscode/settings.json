@@ -1,0 +1,37 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.extensionActivationMode": "always",
+  "cmake.configureOnOpen": false,
+  "cmake.configureOnEdit": false,
+  "cmake.automaticReconfigure": false,
+  "cmake.autoSelectActiveFolder": false,
+  "cmake.options.advanced": {
+    "build": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    },
+    "launch": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    },
+    "debug": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "hidden"
+    }
+  },
+  "idf.openOcdConfigs": [
+    "board/esp32c6-lpcore-builtin.cfg"
+  ],
+  "idf.port": "/dev/ttyACM0",
+  "idf.currentSetup": "/home/jernej/.espressif/v6.1/esp-idf",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32c6"
+  },
+  "clangd.path": "/home/jernej/.espressif/tools/esp-clangd/esp-21.1.3_20260408/esp-clangd/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/jernej/Nextcloud/Sync/ProgramSync/KiCad/Tempic/Tempic-FW/build"
+  ],
+  "idf.flashType": "JTAG"
+}

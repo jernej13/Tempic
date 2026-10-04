@@ -25,15 +25,19 @@ Small 50mm x 50mm solar powered ESP32c6 based indoor/outdoor WiFi/Zigbee sensor 
 
 Goal is easy Home Assistant integration with unlimited battery life and cable-less deployment.
 # Roadmap
-- [ ] Hardware 1.0
+- [x] Hardware 1.0
     - [x] Find suitable ICs
     - [x] Schematics 1.0
     - [x] Draw PCB 1.0
     - [x] Order prototype
-    - [ ] Assemble the PCB
-    - [ ] Test PCB
+    - [x] Assemble the PCB
+    - [x] Test PCB
+- [ ] Hardware 1.1
+    - [ ] Fix current PCB mistakes
+    - [ ] Order PCB
+    - [ ] Assemble and test PCB
 - [ ] Firmware
-    - [ ] Basic test and demo of sensors
+    - [x] Basic test and demo of sensors
     - [ ] Battery life optimization
     - [ ] Add Wifi
     - [ ] Setup connection to Home Assistant
